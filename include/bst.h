@@ -15,5 +15,9 @@ typedef struct NoBST {
 } NoBST;
 
 NoBST* inserirBST(NoBST* raiz, Livro l);
+void listarEmOrdem(NoBST* raiz);
+void buscarBST(NoBST* raiz, int id);
+NoBST* removerBST(NoBST* raiz, int id);
+void liberarBST(NoBST* raiz);
 
 #endif
