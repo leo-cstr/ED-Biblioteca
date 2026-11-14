@@ -7,7 +7,7 @@ NoBST* inserirBST(NoBST* raiz, Livro l) {
         NoBST* novo = (NoBST*)malloc(sizeof(NoBST));
         novo->livro = l;
         novo->esq = NULL; novo->dir = NULL;
-        printf("Registro cadastrado com sucesso\n");
+        printf("Registro cadastrado com sucesso\n\n");
         return novo;
     }
     if (l.id < raiz->livro.id) {
